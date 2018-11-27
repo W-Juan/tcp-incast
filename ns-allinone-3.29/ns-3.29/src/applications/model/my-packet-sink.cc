@@ -1,0 +1,262 @@
+/* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
+/*
+ * Copyright 2007 University of Washington
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation;
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * Author:  Tom Henderson (tomhend@u.washington.edu)
+ */
+#include "ns3/address.h"
+#include "ns3/address-utils.h"
+#include "ns3/log.h"
+#include "ns3/inet-socket-address.h"
+#include "ns3/inet6-socket-address.h"
+#include "ns3/node.h"
+#include "ns3/socket.h"
+#include "ns3/udp-socket.h"
+#include "ns3/simulator.h"
+#include "ns3/socket-factory.h"
+#include "ns3/packet.h"
+#include "ns3/trace-source-accessor.h"
+#include "ns3/udp-socket-factory.h"
+#include "my-packet-sink.h"
+#include "ns3/uinteger.h"
+
+namespace ns3 {
+
+NS_LOG_COMPONENT_DEFINE ("MyPacketSink");
+
+NS_OBJECT_ENSURE_REGISTERED (MyPacketSink);
+
+TypeId 
+MyPacketSink::GetTypeId (void)
+{
+  static TypeId tid = TypeId ("ns3::MyPacketSink")
+    .SetParent<Application> ()
+    .SetGroupName("Applications")
+    .AddConstructor<MyPacketSink> ()
+    .AddAttribute ("Local",
+                   "The Address on which to Bind the rx socket.",
+                   AddressValue (),
+                   MakeAddressAccessor (&MyPacketSink::m_local),
+                   MakeAddressChecker ())
+    .AddAttribute ("Protocol",
+                   "The type id of the protocol to use for the rx socket.",
+                   TypeIdValue (UdpSocketFactory::GetTypeId ()),
+                   MakeTypeIdAccessor (&MyPacketSink::m_tid),
+                   MakeTypeIdChecker ())
+    .AddTraceSource ("Rx",
+                     "A packet has been received",
+                     MakeTraceSourceAccessor (&MyPacketSink::m_rxTrace),
+                     "ns3::Packet::AddressTracedCallback")
+    .AddTraceSource ("RxWithAddresses", "A packet has been received",
+                     MakeTraceSourceAccessor (&MyPacketSink::m_rxTraceWithAddresses),
+                     "ns3::Packet::TwoAddressTracedCallback")
+		.AddAttribute ("SenderNumber",
+									 "The number of client.",
+										TypeId::ATTR_SGC,
+										UintegerValue (0),
+										MakeUintegerAccessor (&MyPacketSink::m_senderNumber),
+										MakeUintegerChecker<uint32_t> ())
+		.AddAttribute ("MaxBytes",
+										"The maxBytes of each client send.",
+										TypeId::ATTR_SGC,
+										UintegerValue (0),
+										MakeUintegerAccessor (&MyPacketSink::m_maxBytes),
+										MakeUintegerChecker<uint32_t> ())
+  ;
+  return tid;
+}
+MyPacketSink::MyPacketSink ()
+{
+  NS_LOG_FUNCTION (this);
+  m_socket = 0;
+  m_totalRx = 0;
+  m_senderNumber=0;
+  m_maxBytes=0;
+}
+
+MyPacketSink::~MyPacketSink()
+{
+  NS_LOG_FUNCTION (this);
+}
+
+uint64_t MyPacketSink::GetTotalRx () const
+{
+  NS_LOG_FUNCTION (this);
+  return m_totalRx;
+}
+// ==== get the start time
+double MyPacketSink::GetStartTime() const
+{
+   NS_LOG_FUNCTION(this);
+   return m_startTime;
+}
+// === get the finish time
+double MyPacketSink::GetFinishTime() const
+{
+  NS_LOG_FUNCTION(this);
+  return m_finishTime;
+}
+Ptr<Socket>
+MyPacketSink::GetListeningSocket (void) const
+{
+  NS_LOG_FUNCTION (this);
+  return m_socket;
+}
+
+std::list<Ptr<Socket> >
+MyPacketSink::GetAcceptedSockets (void) const
+{
+  NS_LOG_FUNCTION (this);
+  return m_socketList;
+}
+
+void MyPacketSink::DoDispose (void)
+{
+  NS_LOG_FUNCTION (this);
+  m_socket = 0;
+  m_socketList.clear ();
+
+  // chain up
+  Application::DoDispose ();
+}
+
+
+// Application Methods
+void MyPacketSink::StartApplication ()    // Called at time specified by Start
+{
+  m_isFirst=0;
+  NS_LOG_FUNCTION (this);
+  // Create the socket if not already
+  if (!m_socket)
+    {
+      m_socket = Socket::CreateSocket (GetNode (), m_tid);
+      if (m_socket->Bind (m_local) == -1)
+        {
+          NS_FATAL_ERROR ("Failed to bind socket");
+        }
+      m_socket->Listen ();
+      m_socket->ShutdownSend ();
+      if (addressUtils::IsMulticast (m_local))
+        {
+          Ptr<UdpSocket> udpSocket = DynamicCast<UdpSocket> (m_socket);
+          if (udpSocket)
+            {
+              // equivalent to setsockopt (MCAST_JOIN_GROUP)
+              udpSocket->MulticastJoinGroup (0, m_local);
+            }
+          else
+            {
+              NS_FATAL_ERROR ("Error: joining multicast on a non-UDP socket");
+            }
+        }
+    }
+
+  m_socket->SetRecvCallback (MakeCallback (&MyPacketSink::HandleRead, this));
+  m_socket->SetAcceptCallback (
+    MakeNullCallback<bool, Ptr<Socket>, const Address &> (),
+    MakeCallback (&MyPacketSink::HandleAccept, this));
+  m_socket->SetCloseCallbacks (
+    MakeCallback (&MyPacketSink::HandlePeerClose, this),
+    MakeCallback (&MyPacketSink::HandlePeerError, this));
+}
+
+void MyPacketSink::StopApplication ()     // Called at time specified by Stop
+{
+  NS_LOG_FUNCTION (this);
+  while(!m_socketList.empty ()) //these are accepted sockets, close them
+    {
+      Ptr<Socket> acceptedSocket = m_socketList.front ();
+      m_socketList.pop_front ();
+      acceptedSocket->Close ();
+    }
+  if (m_socket) 
+    {
+      m_socket->Close ();
+      m_socket->SetRecvCallback (MakeNullCallback<void, Ptr<Socket> > ());
+    }
+}
+
+void MyPacketSink::HandleRead (Ptr<Socket> socket)
+{
+  NS_LOG_FUNCTION (this << socket);
+  Ptr<Packet> packet;
+  Address from;
+  Address localAddress;
+  while ((packet = socket->RecvFrom (from)))
+    {
+      if (packet->GetSize () == 0)
+        { //EOF
+          break;
+        }
+
+      // recevie the first packet
+      if(m_isFirst==0){
+         NS_LOG_UNCOND("==== first packet received =====");
+	       m_startTime=Simulator::Now().GetSeconds();
+         //NS_LOG_UNCOND(Simulator::Now().GetSeconds());  
+	       m_isFirst=1;
+      }
+      m_totalRx += packet->GetSize ();
+      if(m_totalRx== m_maxBytes * m_senderNumber) {
+      	//NS_LOG_UNCOND("==== all the packet are received ====");
+	      m_finishTime=Simulator::Now().GetSeconds();
+	      //NS_LOG_UNCOND(Simulator::Now());
+	      //NS_LOG_UNCOND(m_maxBytes * m_senderNumber);
+      }
+      if (InetSocketAddress::IsMatchingType (from))
+        {
+          NS_LOG_INFO ("At time " << Simulator::Now ().GetSeconds ()
+                       << "s packet sink received "
+                       <<  packet->GetSize () << " bytes from "
+                       << InetSocketAddress::ConvertFrom(from).GetIpv4 ()
+                       << " port " << InetSocketAddress::ConvertFrom (from).GetPort ()
+                       << " total Rx " << m_totalRx << " bytes");
+        }
+      else if (Inet6SocketAddress::IsMatchingType (from))
+        {
+          NS_LOG_INFO ("At time " << Simulator::Now ().GetSeconds ()
+                       << "s packet sink received "
+                       <<  packet->GetSize () << " bytes from "
+                       << Inet6SocketAddress::ConvertFrom(from).GetIpv6 ()
+                       << " port " << Inet6SocketAddress::ConvertFrom (from).GetPort ()
+                       << " total Rx " << m_totalRx << " bytes");
+        }
+      socket->GetSockName (localAddress);
+      m_rxTrace (packet, from);
+      m_rxTraceWithAddresses (packet, from, localAddress);
+    }
+}
+
+
+void MyPacketSink::HandlePeerClose (Ptr<Socket> socket)
+{
+  NS_LOG_FUNCTION (this << socket);
+}
+ 
+void MyPacketSink::HandlePeerError (Ptr<Socket> socket)
+{
+  NS_LOG_FUNCTION (this << socket);
+}
+ 
+
+void MyPacketSink::HandleAccept (Ptr<Socket> s, const Address& from)
+{
+  NS_LOG_FUNCTION (this << s << from);
+  s->SetRecvCallback (MakeCallback (&MyPacketSink::HandleRead, this));
+  m_socketList.push_back (s);
+}
+
+} // Namespace ns3

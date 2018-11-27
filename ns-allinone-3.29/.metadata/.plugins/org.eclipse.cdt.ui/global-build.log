@@ -1,0 +1,1611 @@
+16:33:43 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+
+16:33:43 Build Finished. 0 errors, 0 warnings. (took 21ms)
+
+16:33:51 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:36:45 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (20.301s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:37:41 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.248s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:41:41 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:43:34 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:44:04 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:44:52 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:45:33 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:46:06 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:46:12 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:46:26 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:46:43 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:48:05 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (13.755s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:48:31 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.995s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:49:37 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:50:11 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:51:32 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (17.645s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:53:59 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:57:50 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (11.303s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:59:39 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.387s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:59:57 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.080s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+20:09:06 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1798/1849] Compiling scratch/tcp-incast.cc
+../scratch/tcp-incast.cc: In function ‘int main(int, char**)’:
+../scratch/tcp-incast.cc:30:13: error: ‘arg’ was not declared in this scope
+   cmd.Parse(arg,argv);
+             ^~~
+../scratch/tcp-incast.cc:30:13: note: suggested alternative:
+In file included from ./ns3/uan-prop-model.h:30:0,
+                 from ./ns3/uan-phy.h:29,
+                 from ./ns3/uan-phy-gen.h:26,
+                 from ./ns3/animation-interface.h:42,
+                 from ./ns3/netanim-module.h:10,
+                 from ../scratch/tcp-incast.cc:7:
+/usr/include/c++/7/complex:1833:5: note:   ‘std::arg’
+     arg(_Tp __x)
+     ^~~
+
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build failed
+ -> task in 'tcp-incast' failed with exit status 1 (run with -v to display more information)
+Makefile:4: recipe for target 'all' failed
+make: *** [all] Error 1
+20:55:04 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1798/1849] Compiling scratch/tcp-incast.cc
+[1799/1849] Compiling scratch/subdir/scratch-simulator-subdir.cc
+[1808/1849] Linking build/scratch/tcp-incast
+[1809/1849] Linking build/scratch/subdir/subdir
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (23.128s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+20:56:18 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (7.799s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:42:23 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1800/1851] Compiling scratch/tcp-incast.cc
+[1811/1851] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (19.081s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:46:34 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1800/1851] Compiling scratch/tcp-incast.cc
+[1811/1851] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (44.875s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+09:22:56 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1800/1851] Compiling scratch/tcp-incast.cc
+../scratch/tcp-incast.cc: In function ‘int main(int, char**)’:
+../scratch/tcp-incast.cc:35:6: error: unused variable ‘a’ [-Werror=unused-variable]
+  int a='3';
+      ^
+cc1plus: all warnings being treated as errors
+
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build failed
+ -> task in 'tcp-incast' failed with exit status 1 (run with -v to display more information)
+Makefile:4: recipe for target 'all' failed
+make: *** [all] Error 1
+09:40:24 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1794/1855] Compiling scratch/try-callbackValue.cc
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (22.624s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+15:08:21 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (20.962s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:35:24 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (7.197s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:37:07 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (5.179s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:55:37 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.968s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:03:20 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[  14/1855] Compiling install-ns3-header: ns3/packet-sink-helper.h
+[1410/1855] Compiling src/applications/helper/packet-sink-helper.cc
+[1418/1855] Linking build/lib/libns3.29-applications-debug.so
+[1579/1855] Linking build/lib/libns3.29-lte-debug.so
+[1757/1855] Linking build/lib/libns3.29-test-debug.so
+[1774/1855] Linking build/lib/libns3.29-netanim-debug.so
+[1789/1855] Linking build/scratch/try-pointer-attribute
+[1790/1855] Compiling scratch/tcp-large-transfer.cc
+../scratch/tcp-large-transfer.cc: In function ‘int main(int, char**)’:
+../scratch/tcp-large-transfer.cc:137:3: error: ‘PacketSinkHelper’ was not declared in this scope
+   PacketSinkHelper sink ("ns3::TcpSocketFactory",
+   ^~~~~~~~~~~~~~~~
+../scratch/tcp-large-transfer.cc:140:31: error: ‘sink’ was not declared in this scope
+   ApplicationContainer apps = sink.Install (n1n2.Get (1));
+                               ^~~~
+../scratch/tcp-large-transfer.cc:140:31: note: suggested alternative: ‘sinl’
+   ApplicationContainer apps = sink.Install (n1n2.Get (1));
+                               ^~~~
+                               sinl
+
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build failed
+ -> task in 'tcp-large-transfer' failed with exit status 1 (run with -v to display more information)
+make: *** [all] Error 1
+Makefile:4: recipe for target 'all' failed
+11:06:30 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[  14/1855] Compiling install-ns3-header: ns3/packet-sink-helper.h
+[1399/1855] Compiling src/applications/helper/packet-sink-helper.cc
+[1418/1855] Linking build/lib/libns3.29-applications-debug.so
+[1579/1855] Linking build/lib/libns3.29-lte-debug.so
+[1757/1855] Linking build/lib/libns3.29-test-debug.so
+[1774/1855] Linking build/lib/libns3.29-netanim-debug.so
+[1789/1855] Linking build/scratch/try-pointer-attribute
+[1790/1855] Compiling scratch/tcp-large-transfer.cc
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (29.640s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:00:14 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+source not found: 'helper/my-packet/sink.cchelper/my-packet-sink-helper.cc' in bld(features=['cxx', 'cxxshlib', 'ns3module'], ns3_dir_location='src/applications', pcfilegen=bld(target='', idx=2, tg_idx_count=12, meths=[], module='ns3-applications', _name='', source=[], path=/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications, features='ns3pcfile') in /home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications, use=['ns3-internet', 'ns3-config-store', 'ns3-stats'], uselib='', tg_idx_count=11, meths=['_add_test_code', 'apply_bundle', 'process_rule', 'process_source', 'apply_link', 'apply_implib', 'install_boost', 'process_use', 'collect_compilation_db_tasks', 'propagate_uselib_vars', 'apply_incpaths', 'apply_vnum', 'set_macosx_deployment_target'], source=['model/bulk-send-application.cc', 'model/onoff-application.cc', 'model/packet-sink.cc', 'model/udp-client.cc', 'model/udp-server.cc', 'model/seq-ts-header.cc', 'model/udp-trace-client.cc', 'model/packet-loss-counter.cc', 'model/udp-echo-client.cc', 'model/udp-echo-server.cc', 'model/application-packet-probe.cc', 'model/three-gpp-http-client.cc', 'model/three-gpp-http-server.cc', 'model/three-gpp-http-header.cc', 'model/three-gpp-http-variables.cc', 'helper/bulk-send-helper.cc', 'helper/on-off-helper.cc', 'helper/packet-sink-helper.cc', 'helper/udp-client-server-helper.cc', 'helper/udp-echo-helper.cc', 'helper/three-gpp-http-helper.cc', 'helper/my-packet/sink.cchelper/my-packet-sink-helper.cc'], test=False, is_ns3_module=True, install_path='${LIBDIR}', module_deps=['internet', 'config-store', 'stats'], dependencies=['internet', 'config-store', 'stats'], path=/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications, vnum=None, posted=True, is_static=False, target='../../lib/ns3.29-applications-debug', idx=1, _name='ns3-applications') in /home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications
+Makefile:4: recipe for target 'all' failed
+make: *** [all] Error 1
+16:03:28 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+source not found: 'model/my-packet-sink.cchelper/my-packet-sink-helper.cc' in bld(features=['cxx', 'cxxshlib', 'ns3module'], ns3_dir_location='src/applications', pcfilegen=bld(target='', idx=2, tg_idx_count=12, meths=[], module='ns3-applications', _name='', source=[], path=/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications, features='ns3pcfile') in /home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications, use=['ns3-internet', 'ns3-config-store', 'ns3-stats'], uselib='', tg_idx_count=11, meths=['_add_test_code', 'apply_bundle', 'process_rule', 'process_source', 'apply_link', 'apply_implib', 'install_boost', 'process_use', 'collect_compilation_db_tasks', 'propagate_uselib_vars', 'apply_incpaths', 'apply_vnum', 'set_macosx_deployment_target'], source=['model/bulk-send-application.cc', 'model/onoff-application.cc', 'model/packet-sink.cc', 'model/udp-client.cc', 'model/udp-server.cc', 'model/seq-ts-header.cc', 'model/udp-trace-client.cc', 'model/packet-loss-counter.cc', 'model/udp-echo-client.cc', 'model/udp-echo-server.cc', 'model/application-packet-probe.cc', 'model/three-gpp-http-client.cc', 'model/three-gpp-http-server.cc', 'model/three-gpp-http-header.cc', 'model/three-gpp-http-variables.cc', 'helper/bulk-send-helper.cc', 'helper/on-off-helper.cc', 'helper/packet-sink-helper.cc', 'helper/udp-client-server-helper.cc', 'helper/udp-echo-helper.cc', 'helper/three-gpp-http-helper.cc', 'model/my-packet-sink.cchelper/my-packet-sink-helper.cc'], test=False, is_ns3_module=True, install_path='${LIBDIR}', module_deps=['internet', 'config-store', 'stats'], dependencies=['internet', 'config-store', 'stats'], path=/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications, vnum=None, posted=True, is_static=False, target='../../lib/ns3.29-applications-debug', idx=1, _name='ns3-applications') in /home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/src/applications
+make: *** [all] Error 1
+Makefile:4: recipe for target 'all' failed
+16:10:25 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+source ns3 header file helper/three-gpp-http-helper.hmodel/my-packet-sink.h not found
+make: *** [all] Error 1
+Makefile:4: recipe for target 'all' failed
+16:11:43 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+source ns3 header file helper/three-gpp-http-helper.hmodel/my-packet-sink.h not found
+make: *** [all] Error 1
+Makefile:4: recipe for target 'all' failed
+16:12:08 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[  27/1859] Compiling install-ns3-header: ns3/my-packet-sink-helper.h
+[  33/1859] Compiling install-ns3-header: ns3/my-packet-sink.h
+[ 865/1859] Processing gen-module-header: ns3/applications-module.h
+[1406/1859] Compiling src/applications/model/my-packet-sink.cc
+[1416/1859] Compiling src/applications/helper/my-packet-sink-helper.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1794/1859] Compiling scratch/tcp-large-transfer.cc
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1800/1859] Compiling scratch/tcp-bulk-send.cc
+[1801/1859] Compiling scratch/first.cc
+[1803/1859] Linking build/scratch/scratch-simulator
+[1805/1859] Linking build/scratch/try-attribute
+[1806/1859] Compiling scratch/tcp-incast.cc
+[1808/1859] Linking build/scratch/subdir/subdir
+[1809/1859] Linking build/scratch/tcp-bulk-send
+[1810/1859] Linking build/scratch/first
+[1812/1859] Linking build/utils/ns3.29-test-runner-debug
+[1818/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1m2.594s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:33:13 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1808/1859] Compiling scratch/tcp-incast.cc
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (44.415s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:41:40 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.190s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:41:53 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.106s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:22:13 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (48.149s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:06:08 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (7.865s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+20:43:47 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1808/1859] Compiling scratch/tcp-incast.cc
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (35.132s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+20:44:37 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (12.664s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+20:48:23 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (12.204s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+21:04:04 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1808/1859] Compiling scratch/tcp-incast.cc
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (15.616s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+10:16:31 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:16:49 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:17:04 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:17:17 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:17:59 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:21:33 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:21:51 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:22:00 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:22:26 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+10:58:55 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1399/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1809/1859] Linking build/scratch/tcp-incast
+[1811/1859] Linking build/scratch/subdir/subdir
+[1813/1859] Linking build/utils/ns3.29-test-runner-debug
+[1819/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (41.061s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:00:39 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (7.514s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:15:01 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[  33/1859] Compiling install-ns3-header: ns3/my-packet-sink.h
+[1404/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1794/1859] Compiling scratch/tcp-large-transfer.cc
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1800/1859] Compiling scratch/tcp-bulk-send.cc
+[1801/1859] Compiling scratch/first.cc
+[1803/1859] Linking build/scratch/scratch-simulator
+[1805/1859] Linking build/scratch/try-attribute
+[1806/1859] Compiling scratch/tcp-incast.cc
+[1808/1859] Linking build/scratch/subdir/subdir
+[1809/1859] Linking build/scratch/tcp-bulk-send
+[1810/1859] Linking build/scratch/first
+[1812/1859] Linking build/utils/ns3.29-test-runner-debug
+[1818/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (51.176s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:25:19 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1808/1859] Compiling scratch/tcp-incast.cc
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (16.397s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:27:10 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1400/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1809/1859] Linking build/scratch/tcp-incast
+[1811/1859] Linking build/scratch/subdir/subdir
+[1813/1859] Linking build/utils/ns3.29-test-runner-debug
+[1819/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (31.776s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:30:29 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1410/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1809/1859] Linking build/scratch/tcp-incast
+[1811/1859] Linking build/scratch/subdir/subdir
+[1813/1859] Linking build/utils/ns3.29-test-runner-debug
+[1819/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (34.425s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:32:41 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1401/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1809/1859] Linking build/scratch/tcp-incast
+[1811/1859] Linking build/scratch/subdir/subdir
+[1813/1859] Linking build/utils/ns3.29-test-runner-debug
+[1819/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (40.118s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+11:35:24 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1808/1859] Compiling scratch/tcp-incast.cc
+../scratch/tcp-incast.cc:139:0: error: unterminated argument list invoking macro "NS_LOG_UNCOND"
+ }
+ 
+../scratch/tcp-incast.cc: In function ‘int main(int, char**)’:
+../scratch/tcp-incast.cc:102:4: error: ‘NS_LOG_UNCOND’ was not declared in this scope
+    NS_LOG_UNCOND("the MaxBytes is :";
+    ^~~~~~~~~~~~~
+../scratch/tcp-incast.cc:102:4: error: expected ‘}’ at end of input
+
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build failed
+ -> task in 'tcp-incast' failed with exit status 1 (run with -v to display more information)
+Makefile:4: recipe for target 'all' failed
+make: *** [all] Error 1
+15:27:47 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+15:28:00 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+15:28:09 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+15:41:53 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1420/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1809/1859] Linking build/scratch/tcp-incast
+[1811/1859] Linking build/scratch/subdir/subdir
+[1813/1859] Linking build/utils/ns3.29-test-runner-debug
+[1819/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (44.819s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+15:51:49 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1415/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1808/1859] Compiling scratch/tcp-incast.cc
+[1810/1859] Linking build/scratch/subdir/subdir
+[1812/1859] Linking build/utils/ns3.29-test-runner-debug
+[1818/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (55.567s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+15:57:54 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1418/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1809/1859] Linking build/scratch/tcp-incast
+[1811/1859] Linking build/scratch/subdir/subdir
+[1813/1859] Linking build/utils/ns3.29-test-runner-debug
+[1819/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (37.816s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:32:37 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:32:44 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:37:58 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:43:10 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (14.304s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:49:44 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1168/1859] Compiling src/internet/model/tcp-socket.cc
+[1241/1859] Linking build/lib/libns3.29-internet-debug.so
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1587/1859] Linking build/lib/libns3.29-point-to-point-layout-debug.so
+[1613/1859] Linking build/lib/libns3.29-csma-layout-debug.so
+[1628/1859] Linking build/lib/libns3.29-dsr-debug.so
+[1638/1859] Linking build/lib/libns3.29-flow-monitor-debug.so
+[1651/1859] Linking build/lib/libns3.29-internet-apps-debug.so
+[1685/1859] Linking build/lib/libns3.29-mesh-debug.so
+[1690/1859] Linking build/lib/libns3.29-olsr-debug.so
+[1694/1859] Linking build/lib/libns3.29-sixlowpan-debug.so
+[1711/1859] Linking build/lib/libns3.29-wave-debug.so
+[1760/1859] Linking build/lib/libns3.29-wimax-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1770/1859] Linking build/lib/libns3.29-aodv-debug.so
+[1776/1859] Linking build/lib/libns3.29-dsdv-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1781/1859] Linking build/lib/libns3.29-nix-vector-routing-debug.so
+[1785/1859] Linking build/lib/libns3.29-tap-bridge-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1808/1859] Compiling scratch/tcp-incast.cc
+[1810/1859] Linking build/scratch/subdir/subdir
+[1812/1859] Linking build/utils/ns3.29-test-runner-debug
+[1818/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (54.095s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:57:24 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+./waf
+Waf: Entering directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+[1420/1859] Compiling src/applications/model/my-packet-sink.cc
+[1422/1859] Linking build/lib/libns3.29-applications-debug.so
+[1583/1859] Linking build/lib/libns3.29-lte-debug.so
+[1761/1859] Linking build/lib/libns3.29-test-debug.so
+[1778/1859] Linking build/lib/libns3.29-netanim-debug.so
+[1793/1859] Linking build/scratch/try-pointer-attribute
+[1795/1859] Linking build/scratch/tcp-large-transfer
+[1797/1859] Linking build/scratch/try-callback
+[1799/1859] Linking build/scratch/try-callbackValue
+[1801/1859] Linking build/scratch/tcp-bulk-send
+[1803/1859] Linking build/scratch/first
+[1805/1859] Linking build/scratch/scratch-simulator
+[1807/1859] Linking build/scratch/try-attribute
+[1808/1859] Compiling scratch/tcp-incast.cc
+[1810/1859] Linking build/scratch/subdir/subdir
+[1812/1859] Linking build/utils/ns3.29-test-runner-debug
+[1818/1859] Linking build/utils/ns3.29-print-introspected-doxygen-debug
+[1819/1859] Linking build/scratch/tcp-incast
+Waf: Leaving directory `/home/w_juan/W_Juan/ns3-study/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (54.979s)
+
+Modules built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lr-wpan                   lte                       
+mesh                      mobility                  mpi                       
+netanim (no Python)       network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                test (no Python)          
+topology-read             traffic-control           uan                       
+virtual-net-device        wave                      wifi                      
+wimax                     
+
+Modules not built (see ns-3 tutorial for explanation):
+brite                     click                     openflow                  
+visualizer                
+
+16:59:11 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+16:59:20 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason
+17:01:56 **** Incremental Build of configuration Default for project ns-3.29 ****
+make all 
+Cannot run program "make": Unknown reason

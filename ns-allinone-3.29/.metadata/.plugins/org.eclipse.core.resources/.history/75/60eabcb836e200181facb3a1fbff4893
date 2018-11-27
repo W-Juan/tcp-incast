@@ -1,0 +1,100 @@
+/*
+ * test of tcp-incast problem
+ * 
+ */
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/netanim-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/point-to-point-layout-module.h"
+
+// Network topology (default)
+//
+//        n2 n3 n4              .
+//         \ | /                .
+//          \|/                 .
+//     n1--- n0---n8(client)            .
+//          /|\                 .
+//         / | \                .
+//        n7 n6 n5              .
+//
+using namespace ns3;
+
+NS_LOG_COMPONENT_DEFINE("TcpIncast");
+
+int main(int argc,char *argv[]){
+  LogComponentEnable("TcpIncast",LOG_INFO);
+  uint32_t nSpokes=8;
+  uint32_t maxBytes=1024;
+  //==== accept the commandLine params
+  CommandLine cmd;
+  cmd.AddValue("nSpokes","Number of nodes to place in the star",nSpokes);
+  cmd.AddValue("maxBytes","Total number of bytes for application to send",maxBytes);
+  cmd.Parse(argc,argv);
+
+  Time::SetResolution(Time::NS);
+  
+  //==== Build star topology
+  PointToPointHelper pointToPoint;
+  pointToPoint.SetDeviceAttribute("DataRate",StringValue("5Mbps"));
+  pointToPoint.SetChannelAttribute("Delay",StringValue("2ms"));
+  PointToPointStarHelper star(nSpokes,pointToPoint);
+
+  //==== install internet stack on all nodes
+  InternetStackHelper internet;
+  star.InstallStack(internet);
+
+
+  //==== assign IP Address
+  star.AssignIpv4Addresses(Ipv4AddressHelper("10.1.1.0","255.255.255.0"));
+
+  //==== create and install application on client
+  uint16_t port=9;
+  PacketSinkHelper sink("ns3::TcpSocketFactory",InetSocketAddress(Ipv4Address::GetAny(),port));
+  ApplicationContainer sinkApps=sink.Install(star.GetSpokeNode(star.SpokeCount()-1));
+
+  sinkApps.Start(Seconds(1.0));
+  sinkApps.Stop(Seconds(10.0));
+
+  //==== install application on the spoke nodes to create traffic
+  ApplicationContainer spokeApps;
+  NS_LOG_UNCOND(star.GetSpokeIpv4Address(star.SpokeCount()-1));
+  for(uint32_t i=0;i<star.SpokeCount()-1;i++){
+	  BulkSendHelper source("ns3::TcpSocketFactory",InetSocketAddress(star.GetSpokeIpv4Address(star.SpokeCount()-1),port));
+	  source.SetAttribute("MaxBytes",UintegerValue(maxBytes));
+	  spokeApps.Add(source.Install(star.GetSpokeNode(i)));
+  }
+  spokeApps.Start(Seconds(1.0));
+  spokeApps.Stop(Seconds(10.0));
+
+  //==== get the gloabl routing
+  Ipv4GlobalRoutingHelper::PopulateRoutingTables();
+
+  //==== enable trace and pcap
+  NS_LOG_INFO("enable pcap tracing");
+  AsciiTraceHelper ascii;
+  pointToPoint.EnableAsciiAll(ascii.CreateFileStream("tcp-incast.tr"));
+  pointToPoint.EnablePcapAll("tcp-incast");
+
+  //==== run simulation
+  NS_LOG_INFO("Run Simulation.");
+  Simulator::Run(); 
+  double startTime=Simulator::Now().GetDouble();
+  std::cout<<"=== start time:"<<startTime<<std::endl;
+  
+  Simulator::Destroy();
+  NS_LOG_INFO("Done.");
+  double endTime=Simulator::Now();
+  std::cout<<"=== finished time:"<<endTime<<std::endl;
+  
+  Ptr<PacketSink> sink1=DynamicCast<PacketSink>(sinkApps.Get(0));
+  uint32_t packetSize=sink1->GetTotalRx();
+  std::cout<<"=== Total Bytes Received ===:"<<packetSize<<std::endl;
+  
+  double totalTime=endTime-startTime;
+  std::cout<<"=== total time="<<totalTime<<std::endl;
+  std::cout<<"=== throughput:"<<(packetSize/totalTime)<<std::endl;
+  return 0;
+}
