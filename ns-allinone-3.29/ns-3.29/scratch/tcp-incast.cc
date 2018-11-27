@@ -113,7 +113,7 @@ int main(int argc,char *argv[]){
   uint32_t totalPacketSize=sink1->GetTotalRx();
   double totalTime=endTime-startTime;
   double goodput=totalPacketSize/totalTime/1024;
-  std::cout<<std::endl<<"=== Total Bytes Received:"<<packetSize<<std::endl;
+  std::cout<<std::endl<<"=== Total Bytes Received:"<<totalPacketSize<<std::endl;
   std::cout<<"=== total time="<<totalTime<<std::endl;
   std::cout<<"=== goodput:"<<goodput<<std::endl;
 
